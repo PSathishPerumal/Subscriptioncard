@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Gabarito", sans-serif;
+}
+
+.header {
+    background-color: #AA60C8;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.container {
+
+    display: flex;
+    vertical-align: top;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+
+
+
+}
+
+.container__box1,
+.container__box2,
+.container__box3 {
+    display: inline-block;
+    background-color: black;
+    color: bisque;
+    width: 240px;
+    border-radius: 10px;
+    margin: 20px;
+
+
+}
+
+.container__box1__price,
+.container__box2__price,
+.container__box3__price {
+    text-align: center;
+    padding: 10px;
+
+
+}
+
+.container__box1__price2,
+.container__box2__price2,
+.container__box3__price2 {
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+.container__box1__desc,
+.container__box2__desc,
+.container__box3__desc {
+
+    display: inline-block;
+    width: 170px;
+    border: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 10px;
+
+
+}
+
+h4 {
+    padding: 5px;
+}
+
+.container__box1,
+.container__box2,
+.container__box3 {
+    transition: 0.3s ease-in-out;
+
+}
+
+.container__box1:hover {
+    filter: brightness(1);
+    transform: scale(1.1);
+}
+
+
+
+.container__box2:hover {
+    filter: brightness(1);
+    transform: scale(1.1);
+}
+
+
+.container__box3:hover {
+    filter: brightness(1);
+    transform: scale(1.1);
+}
